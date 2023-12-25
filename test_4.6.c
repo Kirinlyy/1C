@@ -22,9 +22,10 @@ int main()
     case 10:
     case 11:d=10;break;
     case 12:d=15;break;
+    }
     f=p*w*s*(1-d/100.0);
     printf("运费:%10.2f元\n",f);
     return 0;
-    }
+    
 }
     
