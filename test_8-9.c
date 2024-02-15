@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{ 
     void sort(int x[],int n);
     int *p,i,a[10];
     p=a;
@@ -23,6 +23,4 @@ void sort(int x[],int n)
         if(x[j]>x[k])k=j;
     if(k!=i)
     {t=x[i];x[i]=x[k];x[k]=t;}}
-      
-
 }
