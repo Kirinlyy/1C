@@ -10,7 +10,7 @@ int main()
     *p2='\0';//最后在p2所指的位置上赋予一个'\0'的字符
     printf("string a is:%s\n",a);
     printf("string b is:");
-    for(i=0;b[i]!'\0';i++)
+    for(i=0;b[i]!='\0';i++)
       printf("%c",b[i]);
     printf("\n");
     return 0;
